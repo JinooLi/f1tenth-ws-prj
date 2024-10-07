@@ -34,7 +34,7 @@
     - [init.sh](./scripts/init.sh) : Script to run at the end of setting up the DevContainer.
 
 - [src](./src/) : Directory containing the source code of ROS2 packages.
-    - [car-control](./src/car-control/) : Node for vehicle control algorithms -> [readme](./src/car-control/README.md)
+    - [car-control](./src/car-control/) : Node for vehicle control algorithms -> [readme](https://github.com/JinooLi/car-control/tree/main)
     - [devices](./src/devices/) : Contains ROS packages for Lidar, IMU, and VESC.
 
 ## How to use submodule
