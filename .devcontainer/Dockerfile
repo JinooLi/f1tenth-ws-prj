@@ -56,5 +56,8 @@ RUN sudo apt update && sudo apt install -y  \
 RUN sudo rosdep init
 RUN rosdep update
 
+# set bashrc
+RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+
 # Set the default working directory
 WORKDIR /workspace
