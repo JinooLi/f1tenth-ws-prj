@@ -1,5 +1,11 @@
 #!/bin/bash
-cd `dirname $0`/..
+cd `dirname $0` # 
+
+# Register the commands_setup.sh file as an alias in bashrc
+echo "alias rosinit=\". /workspaces/test_ws/scripts/commands_setup.sh\"" >> ~/.bashrc
+
+# go to workspace
+cd ..
 
 # This script installs dependencies for ROS 2 packages using the rosdep tool.
 # 
