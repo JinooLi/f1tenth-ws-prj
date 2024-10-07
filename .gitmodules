@@ -1,0 +1,13 @@
+[submodule "src/devices/vesc"]
+	path = src/devices/vesc
+	url = https://github.com/f1tenth/vesc.git
+	branch = foxy
+[submodule "src/devices/urg_node2"]
+	path = src/devices/urg_node2
+	url = https://github.com/Hokuyo-aut/urg_node2.git
+[submodule "src/devices/PC_AHRS_ROS2"]
+	path = src/devices/PC_AHRS_ROS2
+	url = https://github.com/ntrexlab/PC_AHRS_ROS2.git
+[submodule "src/car-control"]
+	path = src/car-control
+	url = https://github.com/JinooLi/car-control.git

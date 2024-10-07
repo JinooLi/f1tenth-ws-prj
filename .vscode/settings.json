@@ -1,0 +1,4 @@
+{
+  "cmake.sourceDirectory": "/workspaces/docker-ws/sim_ws/src/car-control",
+  "cmake.ignoreCMakeListsMissing": true
+}
