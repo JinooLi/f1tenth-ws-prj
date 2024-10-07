@@ -10,7 +10,7 @@
 1. Clone this repository. (It is recommended to have Docker installed and DevContainer extension in VSCode on a Linux or WSL environment.)
 
     ```bash
-    git clone ?
+    git clone https://github.com/JinooLi/test-ws.git
     ```
 
 2. Open this directory (repository) in VSCode.
