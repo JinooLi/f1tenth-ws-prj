@@ -36,7 +36,7 @@
 - [src](./src/) : Directory containing the source code of ROS2 packages.
     - [car-control](./src/car-control/) : Node for vehicle control algorithms -> [readme](https://github.com/JinooLi/car-control/tree/main)
     - [devices](./src/devices/) : Contains ROS packages for Lidar, IMU, and VESC.
-    - [simulator](./src/simulator/) : Contains ROS packages for the f1tenth simulator.
+    - [simulation](./src/simulation/) : Contains ROS packages for the f1tenth simulator.
 
 ## How to use submodule
 
