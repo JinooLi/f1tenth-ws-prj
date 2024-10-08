@@ -14,6 +14,7 @@ if [ -f '/workspaces/test_ws/install/setup.bash' ]; then
     alias run_vesc_ackermann="ros2 launch vesc_ackermann ackermann_to_vesc_node.launch.xml"
     alias run_joy="ros2 run joy joy_node"
     alias run_car_control="ros2 run car_control car_control"
+    alias run_simulator="ros2 launch f1tenth_gym_ros gym_bridge_launch.py"
 
     command_list=(
         'run_imu'

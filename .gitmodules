@@ -11,3 +11,6 @@
 [submodule "src/car-control"]
 	path = src/car-control
 	url = https://github.com/JinooLi/car-control.git
+[submodule "src/simulation/f1tenth_gym_ros"]
+	path = src/simulation/f1tenth_gym_ros
+	url = https://github.com/JinooLi/f1tenth_gym_ros.git
