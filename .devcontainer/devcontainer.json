@@ -17,7 +17,8 @@
         "wayou.vscode-todo-highlight",
         "GitHub.copilot",
         "ms-vscode.cpptools",
-        "ms-vscode.cpptools-extension-pack"
+        "ms-vscode.cpptools-extension-pack",
+        "ms-azuretools.vscode-docker"
       ]
     }
   },
