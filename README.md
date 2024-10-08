@@ -49,3 +49,9 @@
     ```bash
     git submodule update --init --recursive
     ```
+
+## 할 거
+- 레포 이름 바꾸기.
+- gym_ros는 init.sh로 설치하게 만들기.
+- supervisord 이해.
+- joy node가 잘 실행되도록 하기.
