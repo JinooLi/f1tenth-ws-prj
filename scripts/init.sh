@@ -16,5 +16,8 @@ cd ..
 rosdep install -i --from-path src --rosdistro foxy -y
 
 # Install f1tenth_gym 
-cd src/simulation/f1tenth_gym
+cd src/simulation/
+git clone https://github.com/f1tenth/f1tenth_gym
+cd f1tenth_gym && pip3 install -e .
+cd f1tenth_gym
 pip3 install -e .
