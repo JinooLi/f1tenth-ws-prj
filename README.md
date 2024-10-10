@@ -46,6 +46,8 @@
     ```
 
 ## 할 거
-- gym_ros는 init.sh로 설치하게 만들기.
+- 서브모듈 오작동 해결하기. 
+    `fatal: No url found for submodule path 'src/car-control' in .gitmodules` 
+    - 이거 애초에 서브모듈에서 지운줄 알았는데 뭔가 오류를 낸다.
 - supervisord 이해.
 - joy node가 잘 실행되도록 하기.
