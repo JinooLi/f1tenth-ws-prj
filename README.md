@@ -10,15 +10,10 @@
 1. Clone this repository. (It is recommended to have Docker installed and DevContainer extension in VSCode on a Linux or WSL environment.)
 
     ```bash
-    git clone https://github.com/JinooLi/test-ws.git
+    git clone https://github.com/JinooLi/f1tenth-ws-prj.git
     ```
 
 2. Open this directory (repository) in VSCode.
-
-    ```bash
-    cd test_ws
-    code .
-    ```
 
 3. Press `Ctrl + Shift + P`, search for `rebuild container`, and build the DevContainer.
 
@@ -51,7 +46,6 @@
     ```
 
 ## 할 거
-- 레포 이름 바꾸기.
 - gym_ros는 init.sh로 설치하게 만들기.
 - supervisord 이해.
 - joy node가 잘 실행되도록 하기.
