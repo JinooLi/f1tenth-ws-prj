@@ -32,6 +32,9 @@ RUN apt update && rosdep install -i --from-path src --rosdistro foxy -r -y && rm
 RUN source /opt/ros/foxy/setup.bash && colcon build --merge-install
 RUN rm -rf build log
 
+# install joy_node
+RUN apt update && apt install -y ros-foxy-joy* && rm -rf /var/lib/apt/lists/*
+
 # ==========================================================================================================
 # ==========================================================================================================
 
