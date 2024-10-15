@@ -21,7 +21,7 @@ RUN apt update && apt install -y ros-foxy-ros-base && rm -rf /var/lib/apt/lists/
 
 FROM base AS build
 
-RUN apt update && apt install -y ros-dev-tools python3-pip && rm -rf /var/lib/apt/lists/*
+RUN apt update && apt install -y ros-dev-tools python3-pip ros-foxy-joy* && rm -rf /var/lib/apt/lists/*
 RUN rosdep init && rosdep update --rosdistro foxy
 
 # Build
@@ -31,9 +31,6 @@ COPY src ./src
 RUN apt update && rosdep install -i --from-path src --rosdistro foxy -r -y && rm -rf /var/lib/apt/lists/*
 RUN source /opt/ros/foxy/setup.bash && colcon build --merge-install
 RUN rm -rf build log
-
-# install joy_node
-RUN apt update && apt install -y ros-foxy-joy* && rm -rf /var/lib/apt/lists/*
 
 # ==========================================================================================================
 # ==========================================================================================================
